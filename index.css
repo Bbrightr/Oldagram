@@ -1,5 +1,107 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+}
+
+p {
+    margin: 0;
+}
+
+.container{
+    /* margin: auto; */
+    /* background-color: blanchedalmond; */
+    /* padding: 16px; */
+}
+
+header, 
+.container {
+    width: 400px;
+    /* margin: 0 auto; */
+
+
+}
+
+header {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    /* margin: 0 16px; */
+    border-bottom: 1px solid #C6C6C6;
+}
+
+
+img{
+    width: 100%;
+}
+
+#avatar {
+    width: 34px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.logo{
+    width: 127px;
+}
+
+.myAvatar{
+    border-radius: 50px;
+    width: 37px;
+    align-self: center;
+}
+
+.profDetails{
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    margin: 0;
+    /* background-color: blueviolet; */
+
+}
+
+.icons img {
+    width: 24px;
+
+}
+
+.commenter {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+/* background-color: blue; */
+}
+
+.likes{
+    /* background-color: aqua; */
+}
+
+.username,
+.name,
+.numberPeople {
+    font-weight: 700;
+}
+
+.numberPeople,
+.commenter{
+    padding-left: 16px;
+}
+
+.name {
+    /* background-color: blue; */
+    margin: 0;
+}
+.location {
+    /* background-color: aqua; */
+    font-size: 12px;
+    margin: 0;
 }
 
